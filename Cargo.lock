@@ -964,7 +964,7 @@ checksum = "8b870d8c151b6f2fb93e84a13146138f05d02ed11c7e7c54f8826aaaf7c9f184"
 
 [[package]]
 name = "poise"
-version = "0.6.0"
+version = "0.7.0-alpha"
 dependencies = [
  "async-trait",
  "derivative",
@@ -1325,9 +1325,8 @@ dependencies = [
 
 [[package]]
 name = "serenity"
-version = "0.12.0"
-source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "385647faa24a889929028973650a4f158fb1b4272b2fcf94feb9fcc3c009e813"
+version = "0.13.0-alpha"
+source = "git+https://github.com/nshout/serenity-self?branch=current#68e85b902f2491beb35bb7ff7980d2d7bb6f7a20"
 dependencies = [
  "arrayvec",
  "async-trait",

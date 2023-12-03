@@ -5,14 +5,22 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust: 1.74+](https://img.shields.io/badge/rust-1.74+-93450a)](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
 
-# Poise
-Poise is an opinionated Discord bot framework with a few distinctive features:
+# Poise-self
+Poise-self is an opinionated Discord bot framework with a few distinctive features:
+- user account: user tokens are allowed making this a great choice for selfbots
 - slash commands: completely define slash commands with a single function signature
 - flexible argument parsing: command parameters are defined with normal Rust types and parsed automatically
 - text commands: commands are agnostic over old text-based commands and slash commands
 - edit tracking: when user edits their message, automatically update bot response
 
 # How to use
+
+Add the following to your `Cargo.toml` file:
+
+```toml
+[dependencies]
+poise = { git = "https://github.com/nshout/poise-self", branch = "current" }
+```
 
 Most information is in the [API documentation](https://docs.rs/poise/). Also take a
 look at the [examples](examples), especially [`feature_showcase`](https://github.com/ev3nvy/poise/tree/current/examples/feature_showcase), to learn what poise can do.
@@ -33,6 +41,6 @@ For each bot, there's a list of notable features for you to take inspiration fro
 - [Etternabot](https://github.com/kangalio/Etternabot) by [@kangalio](https://github.com/kangalio): response transformation, variadic and lazy arguments
 - [Rustbot](https://github.com/kangalio/rustbot) by [@kangalio](https://github.com/kangalio): database, custom prefixes
 
-You're welcome to add your own bot [via a PR](https://github.com/serenity-rs/poise/compare)!
+You're welcome to add your own selfbot [via a PR](https://github.com/serenity-rs/poise/compare)!
 
 For more projects, see GitHub's [Used By page](https://github.com/serenity-rs/poise/network/dependents).

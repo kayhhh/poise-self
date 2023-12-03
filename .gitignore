@@ -1,1 +1,15 @@
-target
+# IDE directories and folders
+.vscode/
+.idea/
+.vs/
+
+# Target directory
+target/
+
+# Lockfile
+Cargo.lock
+
+# Misc
+rls/
+*.iml
+.env
