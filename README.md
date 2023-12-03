@@ -13,6 +13,15 @@ Poise-self is an opinionated Discord bot framework with a few distinctive featur
 - text commands: commands are agnostic over old text-based commands and slash commands
 - edit tracking: when user edits their message, automatically update bot response
 
+# Fork Changes
+
+Changed to serenity-self 1.13.0-alpha to allow user tokens for the development of selfbots.
+
+Credits
+- [Poise](https://github.com/serenity-rs/poise) for the original Discord API wrapper
+- [Serenity](https://github.com/serenity-rs/serenity) for the original Discord API wrapper
+- [@Suffix](https://github.com/suffixarchive) for testing and helping with bug hunting
+
 # How to use
 
 Add the following to your `Cargo.toml` file:
