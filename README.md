@@ -5,7 +5,7 @@
 [![License: MIT](https://img.shields.io/badge/license-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust: 1.74+](https://img.shields.io/badge/rust-1.74+-93450a)](https://blog.rust-lang.org/2023/11/16/Rust-1.74.0.html)
 
-# Currently not working.
+# Currently not working. Use Serenity-self instead.
 
 # Poise-self
 Poise-self is an opinionated Discord bot framework with a few distinctive features:
