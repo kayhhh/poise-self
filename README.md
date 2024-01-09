@@ -30,7 +30,7 @@ Add the following to your `Cargo.toml` file:
 
 ```toml
 [dependencies]
-poise = { git = "https://github.com/nshout/poise-self", branch = "current" }
+poise = { git = "https://github.com/gx-aura/poise-self", branch = "current" }
 ```
 
 Most information is in the [API documentation](https://docs.rs/poise/). Also take a
