@@ -1435,20 +1435,20 @@ dependencies = [
 
 [[package]]
 name = "secrecy"
-version = "0.8.0"
+version = "0.7.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "9bd1c54ea06cfd2f6b63219704de0b9b4f72dcc2b8fdef820be6cd799780e91e"
+checksum = "0673d6a6449f5e7d12a1caf424fd9363e2af3a4953023ed455e3c4beef4597c0"
 dependencies = [
+ "serde",
  "zeroize",
 ]
 
 [[package]]
 name = "secrecy"
-version = "0.10.3"
+version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "e891af845473308773346dc847b2c23ee78fe442e0472ac50e22a18a93d3ae5a"
+checksum = "9bd1c54ea06cfd2f6b63219704de0b9b4f72dcc2b8fdef820be6cd799780e91e"
 dependencies = [
- "serde",
  "zeroize",
 ]
 
@@ -1532,7 +1532,7 @@ dependencies = [
 [[package]]
 name = "serenity"
 version = "0.13.0"
-source = "git+https://github.com/kayhhh/serenity-self?branch=current#c395bdc6802517a95cb8a549e065944665eb4bfb"
+source = "git+https://github.com/kayhhh/serenity-self?branch=current#f688635117f700df6ebcb5b10d959f5eb8d21927"
 dependencies = [
  "arrayvec",
  "async-trait",
@@ -1548,7 +1548,7 @@ dependencies = [
  "parking_lot",
  "percent-encoding",
  "reqwest",
- "secrecy 0.10.3",
+ "secrecy 0.7.0",
  "serde",
  "serde_cow",
  "serde_json",
@@ -2198,7 +2198,7 @@ version = "0.1.9"
 source = "registry+https://github.com/rust-lang/crates.io-index"
 checksum = "cf221c93e13a30d793f7645a0e7762c55d169dbb0a49671918a2319d289b10bb"
 dependencies = [
- "windows-sys 0.48.0",
+ "windows-sys 0.59.0",
 ]
 
 [[package]]
